@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+  font-size: .75rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav.link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 40%;
+  transform: rotate(25deg);
+  margin-left: 150px;
+}
+
+.Image-container-title {
+  padding-top: 7%;
+  padding-bottom: 4%;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-box {
+  padding: 4% 2%;
+}
+
+
+/* End Section */
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  font-family:"Montserrat";
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.H3-cta {
+  padding-top: 20px;
+  font-size:  2rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 8% 2%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+/* Media Section */
+@media (max-width : 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-left: auto;
+  }
+}
